@@ -61,10 +61,34 @@ header .conteiner .nav a:hover {
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
-    margin-bottom: 40px;
+.filme-principal .descricao {
+    background-color: rgba(0,0,0,.10);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .titulo {
+    background-color: rgba(0,0,0,.10);
+    margin-top: 33%;
+    margin-left: 10px;
     font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(26, 20, 20, 0.4);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: #141414;
 }
