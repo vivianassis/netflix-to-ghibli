@@ -1,18 +1,23 @@
+/*DEFINIÇÃO DE VARIÁVEIS Ajuda na hora de acessar itens que se repetem por padrão por todo o documento (temas)*/
 :root{
     --vermelho:#E50914;
     --preto:#141414; 
     --cinza:#AAA;
 }
 
+/*RESET CSS Para a folha ficar completamente zerada de alinhamento que vem por padrão*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Elementos base*/
+
 body {
     background-color: #141414;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 .logo {
@@ -25,7 +30,7 @@ body {
 
 header .conteiner {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Padrão -- (em linha)*/
     align-items: center;
     justify-content: space-between;
 }
@@ -34,11 +39,32 @@ header .conteiner .nav a {
     text-align: right;
     color: #AAA;
     margin-right: 10px;
-
     font-size: 15px;
     text-decoration: none;
 }
 
+/*Uso do 'HOVER' para declarar um evento (mouse sobre o elemento)*/
 header .conteiner .nav a:hover {
-    color: #FFF;
+    color: #FFF; 
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url(https://cdn.vox-cdn.com/thumbor/fNXRoKyQS3iL54s69ko9EtaXcsw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19998455/jbareham_200520_1021_ghibli_week_0001b.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 45px;
 }
