@@ -28,23 +28,24 @@ body {
     text-align: left;
 }
 
-header .conteiner {
+header .container {
     display: flex;
     flex-direction: row; /*Padrão -- (em linha)*/
     align-items: center;
     justify-content: space-between;
 }
 
-header .conteiner .nav a {
+header .container .nav a {
     text-align: right;
     color: #AAA;
     margin-right: 10px;
     font-size: 15px;
     text-decoration: none;
+    width: 100%;
 }
 
 /*Uso do 'HOVER' para declarar um evento (mouse sobre o elemento)*/
-header .conteiner .nav a:hover {
+header .container .nav a:hover {
     color: #FFF; 
 }
 
@@ -61,19 +62,19 @@ header .conteiner .nav a:hover {
     align-items: flex-start;
 }
 
-.filme-principal .descricao {
-    background-color: rgba(0,0,0,.10);
-    margin-bottom: 30px;
-    margin-left: 10px;
-    font-size: 20px;
-}
-
 .titulo {
-    background-color: rgba(0,0,0,.10);
-    margin-top: 33%;
-    margin-left: 10px;
+    background-color: rgba(0,0,0,.20);
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20%;
+    padding: 5px;
+}
+
+.filme-principal .descricao {
+    background-color: rgba(0,0,0,.20);
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 3px;
 }
 
 .botao {
@@ -82,13 +83,24 @@ header .conteiner .nav a:hover {
     color: white;
     padding: 15px 30px;
     margin-right: 10px;
-    margin-left: 15px;
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: white;
     color: #141414;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 5px;
+}
+
+.filme-principal .container {
+    width: 80%;
 }
