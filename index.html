@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br"/>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Netflix - Ghibli</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b7b21887de.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+    <!--css carrossel-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">    
+<!--fim do css carrossel-->
+    
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -22,28 +28,64 @@
     </header>
 
     <main>
+
         <div class="filme-principal">
             <div class="container">
                     <h3 class="titulo">GHIBLI FILMES</h3>
                     <p class="descricao">
                         Assista aqui todos os filmes do estúdio Ghibli, de Hayao Miyazaki. 
                     </p>
-                    <div class="botoes">
-                        <button role= "button" class="botao">
-                            <i class="fas fa-play"></i>
-                                ASSISTIR AGORA
-                        </button>
-                        <button role= "button" class="botao">
-                            <i class="fas fa-info-circle"></i>
-                                MAIS INFORMAÇÕES
-                        </button>
-                    </div>
+                <div class="botoes">
+                    <button role= "button" class="botao">
+                        <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                    </button>
+                    <button role= "button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                    </button>
                 </div>
             </div>
+        </div>
+
+
+        <!--Carrossel-->
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> 
+                <img class="box-filme" src="img/castelo-animado.jpg" alt="Castelo animado"> 
+            </div>
+            <div class="item"> 
+                <img class="box-filme" src="img/kaguya.jpg" alt="Princesa Kaguya"> 
+            </div>
+            <div class="item"> 
+                <img class="box-filme" src="img/kiki.jpg" alt="Kiki'Delivery"> 
+            </div>
+            <div class="item"> 
+                <img class="box-filme" src="img/ponyo.jpg" alt="Ponyo"> 
+            </div>
+            <div class="item"> 
+                <img class="box-filme" src="img/totoro.jpg" alt="Meu amigo Totoro"> 
+            </div>
+            <div class="item"> 
+                <img class="box-filme" src="img/vagalumes.jpg" alt="Túmulo dos vagalumes"> 
+            </div>
+        </div>
+    </div>
+        <!--Fim do carrossel-->
+
     </main>
 
     <footer>
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/b7b21887de.js" crossorigin="anonymous"></script>
+    <!--script carrossel-->
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
+    <!--fim do script carrossel-->
+    
 </body>
 </html>

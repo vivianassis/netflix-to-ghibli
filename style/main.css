@@ -66,7 +66,7 @@ header .container .nav a:hover {
     background-color: rgba(0,0,0,.20);
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 20%;
+    margin-top: 40%;
     padding: 5px;
 }
 
@@ -102,5 +102,17 @@ header .container .nav a:hover {
 }
 
 .filme-principal .container {
-    width: 90%;
+    width: auto
+}
+
+.carrossel-filmes {
+    margin-top: 3%;
+    padding: 2px;
+    border: rgb(46, 42, 42) 2px solid;
+}
+
+.box-filme {
+    height: 20rem;
+    width: 10rem;
+    display: block;
 }
