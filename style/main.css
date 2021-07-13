@@ -16,7 +16,7 @@
 
 body {
     background-color: #141414;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -106,9 +106,8 @@ header .container .nav a:hover {
 }
 
 .carrossel-filmes {
-    margin-top: 3%;
+    margin-top: 2%;
     padding: 2px;
-    border: rgb(46, 42, 42) 2px solid;
 }
 
 .box-filme {
