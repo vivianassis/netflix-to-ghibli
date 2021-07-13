@@ -1,18 +1,52 @@
 @media screen and (max-width: 700px) {
+    .body {
+        background-size: cover;
+    }
+
     .header .container{
         display: flex;
         flex-direction: column;
-    }}
-
-    .botao {
-        margin-top: 5px;
-        width: 190px;
-        height: 300px;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
+    .titulo {
+        margin-top: 50%;
+    }
+
+    .botao {
+        display: flexbox;
+        flex-direction: column;
+        margin-top: 5px;
+        height: auto;
+        width: auto;
+        margin-bottom: 5px;
+    }
+
+    .box-filme {
+        height: 30rem;
+    }
+
+    .container-lista {
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .titulo-lista {
+        text-align: center;
+    }
+
+    .saiba-mais {
+        padding-right: 40px;
+    }
+}
+
+    
+
 @media screen and (min-width: 1000px) {
-    .descicao {
+    .descricao {
         width: 50%;
     }
 }
+
 

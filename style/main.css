@@ -15,13 +15,26 @@
 /*Elementos base*/
 
 body {
-    background-color: #141414;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 34, 34, 0.8)100%), url(https://c4.wallpaperflare.com/wallpaper/535/603/626/anime-studio-ghibli-spirited-away-wallpaper-preview.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 14px;
+}
+
+hr {
+	border: 1px solid; 
+	border-color: paleturquoise var(--vermelho) paleturquoise var(--vermelho);
+    opacity: 0.2;
+	}
+
+a {
+    color: #AAA;
+    text-decoration: none;
 }
 
 .logo {
-    margin-left: 5px;
     color: #E50914;
     font-family: 'Arial Black';
     font-size: 40px;
@@ -33,6 +46,7 @@ header .container {
     flex-direction: row; /*Padrão -- (em linha)*/
     align-items: center;
     justify-content: space-between;
+    margin-left: 5px;
 }
 
 header .container .nav a {
@@ -46,7 +60,7 @@ header .container .nav a {
 
 /*Uso do 'HOVER' para declarar um evento (mouse sobre o elemento)*/
 header .container .nav a:hover {
-    color: #FFF; 
+    color: rgb(255, 255, 255); 
 }
 
 /*Filme principal*/
@@ -55,7 +69,7 @@ header .container .nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url(https://cdn.vox-cdn.com/thumbor/fNXRoKyQS3iL54s69ko9EtaXcsw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19998455/jbareham_200520_1021_ghibli_week_0001b.jpg);
     background-size: cover;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,6 +86,7 @@ header .container .nav a:hover {
 
 .filme-principal .descricao {
     background-color: rgba(0,0,0,.20);
+    width: auto;
     margin-bottom: 30px;
     font-size: 20px;
     padding: 3px;
@@ -86,11 +101,12 @@ header .container .nav a:hover {
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    text-decoration: none;
 }
 
 .botao:hover {
     background-color: white;
-    color: #141414;
+    border-radius: 2px;
 }
 
 .botao i {
@@ -106,12 +122,20 @@ header .container .nav a:hover {
 }
 
 .carrossel-filmes {
-    margin-top: 2%;
     padding: 2px;
 }
 
 .box-filme {
+    width: 20rem;
     height: 20rem;
-    width: 10rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+#filmes {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    padding: 5px;
+    margin-bottom: 0;
 }
