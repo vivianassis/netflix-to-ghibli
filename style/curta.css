@@ -1,8 +1,8 @@
 /*DEFINIÇÃO DE VARIÁVEIS Ajuda na hora de acessar itens que se repetem por padrão por todo o documento (temas)*/
-:root{
-    --vermelho:#E50914;
-    --preto:#141414; 
-    --cinza:#AAA;
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+    --cinza: #aaa;
 }
 
 /*RESET CSS Para a folha ficar completamente zerada de alinhamento que vem por padrão*/
@@ -15,7 +15,8 @@
 /*Elementos base*/
 
 body {
-    background: linear-gradient(rgba(110, 109, 109, 0.5), rgba(160, 158, 158, 0.5)100%), url(https://todoescritordevesaber.files.wordpress.com/2015/06/nausicaa-foto01.jpg);
+    background: linear-gradient(rgba(110, 109, 109, 0.5), rgba(160, 158, 158, 0.5) 100%),
+        url(https://todoescritordevesaber.files.wordpress.com/2015/06/nausicaa-foto01.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,11 +25,11 @@ body {
 }
 
 hr {
-	border: 1px solid; 
-	border-color: paleturquoise var(--vermelho) paleturquoise var(--vermelho);
+    border: 1px solid;
+    border-color: paleturquoise var(--vermelho) paleturquoise var(--vermelho);
     opacity: 0.2;
     z-index: -2;
-	}
+}
 
 a {
     color: white;
@@ -36,8 +37,8 @@ a {
 }
 
 .logo {
-    color: #E50914;
-    font-family: 'Arial Black';
+    color: #e50914;
+    font-family: "Arial Black";
     font-size: 40px;
     text-align: left;
 }
@@ -62,15 +63,15 @@ header .container .nav a {
 
 /*Uso do 'HOVER' para declarar um evento (mouse sobre o elemento)*/
 header .container .nav a:hover {
-    color: #FFF; 
+    color: #fff;
 }
 
 .container-lista {
     background: linear-gradient(rgba(230, 230, 230, 0.2), rgba(88, 87, 87, 0.2) 100%);
     width: 50%;
     margin-left: 5px;
-    border: 1px solid; 
-	border-color: rgba(175, 238, 238, 0.3) rgba(235, 13, 13, 0.062);
+    border: 1px solid;
+    border-color: rgba(175, 238, 238, 0.3) rgba(235, 13, 13, 0.062);
     border-style: double;
     border-radius: 25px;
 }
@@ -106,4 +107,3 @@ header .container .nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-

@@ -1,8 +1,8 @@
 /*DEFINIÇÃO DE VARIÁVEIS Ajuda na hora de acessar itens que se repetem por padrão por todo o documento (temas)*/
-:root{
-    --vermelho:#E50914;
-    --preto:#141414; 
-    --cinza:#AAA;
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+    --cinza: #aaa;
 }
 
 /*RESET CSS Para a folha ficar completamente zerada de alinhamento que vem por padrão*/
@@ -15,7 +15,8 @@
 /*Elementos base*/
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 34, 34, 0.8)100%), url(https://c4.wallpaperflare.com/wallpaper/535/603/626/anime-studio-ghibli-spirited-away-wallpaper-preview.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 34, 34, 0.8) 100%),
+        url(https://c4.wallpaperflare.com/wallpaper/535/603/626/anime-studio-ghibli-spirited-away-wallpaper-preview.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,19 +25,19 @@ body {
 }
 
 hr {
-	border: 1px solid; 
-	border-color: paleturquoise var(--vermelho) paleturquoise var(--vermelho);
+    border: 1px solid;
+    border-color: paleturquoise var(--vermelho) paleturquoise var(--vermelho);
     opacity: 0.2;
-	}
+}
 
 a {
-    color: #AAA;
+    color: #aaa;
     text-decoration: none;
 }
 
 .logo {
-    color: #E50914;
-    font-family: 'Arial Black';
+    color: #e50914;
+    font-family: "Arial Black";
     font-size: 40px;
     text-align: left;
 }
@@ -51,7 +52,7 @@ header .container {
 
 header .container .nav a {
     text-align: right;
-    color: #AAA;
+    color: #aaa;
     margin-right: 10px;
     font-size: 15px;
     text-decoration: none;
@@ -60,14 +61,15 @@ header .container .nav a {
 
 /*Uso do 'HOVER' para declarar um evento (mouse sobre o elemento)*/
 header .container .nav a:hover {
-    color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);
 }
 
 /*Filme principal*/
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url(https://cdn.vox-cdn.com/thumbor/fNXRoKyQS3iL54s69ko9EtaXcsw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19998455/jbareham_200520_1021_ghibli_week_0001b.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+        url(https://cdn.vox-cdn.com/thumbor/fNXRoKyQS3iL54s69ko9EtaXcsw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19998455/jbareham_200520_1021_ghibli_week_0001b.jpg);
     background-size: cover;
     height: 500px;
     display: flex;
@@ -77,15 +79,15 @@ header .container .nav a:hover {
 }
 
 .titulo {
-    background-color: rgba(0,0,0,.20);
+    background-color: rgba(0, 0, 0, 0.2);
     font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin-top: 40%;
     padding: 5px;
 }
 
 .filme-principal .descricao {
-    background-color: rgba(0,0,0,.20);
+    background-color: rgba(0, 0, 0, 0.2);
     width: auto;
     margin-bottom: 30px;
     font-size: 20px;
@@ -100,7 +102,7 @@ header .container .nav a:hover {
     margin-right: 10px;
     font-size: 12px;
     cursor: pointer;
-    transition: .3s ease all;
+    transition: 0.3s ease all;
     text-decoration: none;
 }
 
@@ -118,7 +120,7 @@ header .container .nav a:hover {
 }
 
 .filme-principal .container {
-    width: auto
+    width: auto;
 }
 
 .carrossel-filmes {
@@ -134,7 +136,7 @@ header .container .nav a:hover {
 
 #filmes {
     font-size: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin-top: 15px;
     padding: 5px;
     margin-bottom: 0;
